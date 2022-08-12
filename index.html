@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1 id="title"><span>freeCodeCamp <span><span>Survey Form</span></h1>
+        <p id="description">This platform runs smoothly because of campers like you, arigato!</p>
+    </header>
+
+    <form action="" id="survey-form">
+        <div class="form-group">
+            <label for="name" id="name-label">Name</label>
+            <input type="text" id="name" placeholder="Enter your name" required>
+        </div>
+
+        <div class="form-group">
+            <label for="email" id="email-label">Email</label>
+            <input type="email" id="email" placeholder="Enter your email" required>
+        </div>
+
+        <div class="form-group">
+            <label for="number" id="number-label">Age</label>
+            <input type="number" id="number" min="11" max="99" placeholder="Enter your age in years" required>
+        </div>
+
+        <div class="form-group">
+            <p>Sex</p>
+            <label id="sex-label">
+                <input type="radio" class="inline" name="sex" value="male"> Male
+            </label>
+            <label id="sex-label">
+                <input type="radio" class="inline" name="sex" value="female"> Female
+            </label>
+        </div>
+
+        <div class="form-group">
+            <label for="dropdown">What is your current employment status?</label>
+            <select name="employment" id="dropdown">
+                <option value="">Select an option</option>
+                <option value="1">Student</option>
+                <option value="2">Unemployed</option>
+                <option value="3">Self-employed</option>
+                <option value="4">Part-time</option>
+                <option value="5">Fully employed</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <p>Which lesson format are you most comfortable with?</p>
+            <label>
+                <input type="checkbox" class="inline" name="medium" value="articles"> Articles
+            </label>
+            <label>
+                <input type="checkbox" class="inline" name="medium" value="youtube"> YouTube Videos
+            </label>
+            <label>
+                <input type="checkbox" class="inline" name="medium" value="rpg"> Learn to Code RPG
+            </label>
+            <label>
+                <input type="checkbox" class="inline" name="medium" value="sync"> Synchronized bootcamps
+            </label>
+            <label>
+                <input type="checkbox" class="inline" name="medium" value="async"> Asynchronized projects
+            </label>
+        </div>
+
+        <div class="form-group">
+            <p>Which certification(s) have you completed?</p>
+            <label>
+                <input type="checkbox" class="inline" name="certification" value="web-design"> Responsive Web Design
+            </label>
+            <label>
+                <input type="checkbox" class="inline" name="certification" value="javascript"> JavaScript Algorithms and
+                Data Structures
+            </label>
+            <label>
+                <input type="checkbox" class="inline" name="certification" value="frontend"> Front End Development
+                Libraries
+            </label>
+            <label>
+                <input type="checkbox" class="inline" name="certification" value="data-visual"> Data Visualization
+            </label>
+            <label>
+                <input type="checkbox" class="inline" name="certification" value="backend"> Back End Development and
+                APIs
+            </label>
+            <label>
+                <input type="checkbox" class="inline" name="certification" value="QA"> Quality Assurance
+            </label>
+            <label>
+                <input type="checkbox" class="inline" name="certification" value="python"> Scientific Computing with
+                Python
+            </label>
+            <label>
+                <input type="checkbox" class="inline" name="certification" value="data-analysis"> Data Analysis with
+                Python
+            </label>
+            <label>
+                <input type="checkbox" class="inline" name="certification" value="infosec"> Information Security
+            </label>
+            <label>
+                <input type="checkbox" class="inline" name="certification" value="ML"> Machine Learning with Python
+            </label>
+        </div>
+
+        <div class="form-group">
+            <label for="drop-menu">What is your favorite freeCodeCamp feature?</label>
+            <select name="fave-feature" id="drop-menu">
+                <option value="">Choose one</option>
+                <option value="challenges">Challenges</option>
+                <option value="projects">Projects</option>
+                <option value="community">Community</option>
+                <option value="openSource">Open-Source</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <p>Would you recommend freeCodeCamp to friends or family?</p>
+            <label>
+                <input type="radio" class="inline" name="recommendation" value="yes"> Definitely
+            </label>
+            <label>
+                <input type="radio" class="inline" name="recommendation" value="maybe"> Probably
+            </label>
+            <label>
+                <input type="radio" class="inline" name="recommendation" value="no"> No way, Jose
+            </label>
+        </div>
+
+        <p>Do you have any suggestions on how we could improve our website?</p>
+        <textarea name="" id="" cols="30" rows="10"
+            placeholder="It all started one Saturday morning when I logged into my computer..."></textarea>
+        <button id="submit">Submit</button>
+    </form>
+
+</body>
+
+</html>
